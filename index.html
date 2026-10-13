@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>NAVI AIR 나비에어 | MEGA MEDICAL</title>
 <meta name="description" content="NAVI AIR 나비에어는 단일 규격의 비흡수성 비강 내 부목으로, 비강 내부 고정과 통기 경로 확보를 지원하는 실리콘 고무 기반 일회용 멸균 제품입니다." />
+<meta name="author" content="지원 (@hajwmg)" />
 
 <style>
 *{
@@ -697,6 +698,23 @@ a{
     color:var(--orange);
 }
 
+.creator-credit{
+    position:fixed;
+    right:18px;
+    bottom:18px;
+    z-index:1000;
+    padding:10px 14px;
+    border:1px solid rgba(255,255,255,0.3);
+    border-radius:999px;
+    background:rgba(29,39,58,0.92);
+    color:#fff;
+    font-size:12px;
+    font-weight:800;
+    letter-spacing:0.1px;
+    box-shadow:0 10px 28px rgba(29,39,58,0.22);
+    backdrop-filter:blur(8px);
+}
+
 .footer{
     margin-top:50px;
     text-align:center;
@@ -829,6 +847,14 @@ a{
 
     .bottom-contact h3{
         font-size:34px;
+    }
+
+    .creator-credit{
+        right:10px;
+        bottom:10px;
+        max-width:calc(100vw - 20px);
+        text-align:center;
+        border-radius:14px;
     }
 }
 
@@ -1080,6 +1106,17 @@ a{
     .bottom-contact p,
     .contact-value{
         font-size:13px;
+    }
+
+    .creator-credit{
+        position:static;
+        display:block;
+        width:max-content;
+        max-width:100%;
+        margin:18px auto 0;
+        color:#fff;
+        background:var(--navy);
+        box-shadow:none;
     }
 
     .footer{
@@ -1382,7 +1419,12 @@ a{
         </div>
     </section>
 
-    <div class="footer">© MEGA MEDICAL All Rights Reserved.</div>
+    <div class="footer">
+        <strong>웹사이트 기획 · 디자인 · 개발: 지원 (@hajwmg) · 2026.07</strong><br>
+        © MEGA MEDICAL All Rights Reserved.
+    </div>
+
+    <div class="creator-credit" aria-label="사이트 제작자 표기">Original site design &amp; development by 지원 (@hajwmg) · 2026.07</div>
 </main>
 
 <script>
